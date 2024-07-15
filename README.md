@@ -77,7 +77,7 @@ If you have concerns or suggestions regarding our GitHub, don't hesitate to mess
 For inquiries, kindly send an email to mjci@sju.ac.kr.
 
 # Other Links
-- **UET4Rec**: The paper has been accepted and will be published soon!
+- **UET4Rec**: You can find the paper [here](https://www.sciencedirect.com/science/article/pii/S0957417424016488).
 
 # Citation
 ```
