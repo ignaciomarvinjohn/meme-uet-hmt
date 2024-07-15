@@ -49,12 +49,19 @@ python train_keywords.py
 ```
 This is the version that uses UET, which utilizes the keywords/keyphrases.
 
+Control Parameters:
+- is_debug = Use this for debugging (checking the dimensions at a certain point).
+- is_train = True if you want to train and test an experiment; False if you want to test an experiment (you need to have a model first).
+- memotion_num_list = Tells which Memotion dataset you want to run. You can simply add/remove the dataset(s) here.
+- tasks_list = The Memotion tasks. Our prior code (single task) utilizes this to select a specific task for a particular experiment.
+- version = Also called "experiment number". Change this every time you make an experiment.
+
 # Customization
 Our research is composed of different modules that other algorithms can easily substitute. We encourage you to try out other models and see their performance.
 
 You can:
 1. Change BLIP-2 using a different image captioning model.
-2. Use a differnt LLM other than GPT-4. (I suggest using LLM, which does not require financial cost.)
+2. Use a differnt LLM other than GPT-4. (I suggest using an open-source LLM, which does not require financial cost.)
 3. Craft your own prompt.
 4. Create your own dataset using another method.
 
