@@ -11,7 +11,7 @@ Source code will be provided soon!
 # Setup
 
 ## Dependencies
-Our work is developed in Windows 10 operating system. We used conda environment with the following dependencies:
+Our work is developed in Windows 10 operating system. We used a conda environment with the following dependencies:
 - Python 3.7
 - Cuda Toolkit 11.7
 - PyTorch 1.13
@@ -29,20 +29,33 @@ Follow the instructions on the [OpenAI API website](https://platform.openai.com/
 
 Create a prompt
 ```
-"Can you tell me the relation between the sentence "*caption*" and the context "*meme text*" in a meme image in short sentences? Also, how much do you rate your response, from 1 to 5, 1 being the lowest and 5 being the highest? Just provide a short score."
+"Can you tell me the relation between the sentence "meme_caption" and the context "meme_text" in a meme image in short sentences? Also, how much do you rate your response, from 1 to 5, 1 being the lowest and 5 being the highest? Just provide a short score."
 ```
-to generate contextual information per meme image. Note that the *meme text* in this prompt is the text in the meme image.
+to generate contextual information per meme image. Note that the *meme_text* in this prompt is the text in the meme image, and *meme_caption* is the generated caption using the BLIP-2 model.
 
 (We will provide a sample code, but keep in mind you can easily make one just by following the instructions.)
 
 # Training
+You can run the following code to perform classification using Document HMT, as described in our paper.
+```
+python train_document.py
+```
+This performs classification without the UET. It utilizes the document embeddings extracted using KeyBERT.
 
+To classify the contextual information using Keywords HMT, run the following code.
+```
+python train_keywords.py
+```
+This is the version that uses UET, which utilizes the keywords/keyphrases.
 
-# Customize
+# Customization
 
 
 # Contact
 For inquiries, kindly send an email to mjci@sju.ac.kr
+
+# Other Links
+- **UET4Rec**: The paper has been accepted and will be published soon!
 
 # Citation
 ```
