@@ -49,12 +49,16 @@ python train_keywords.py
 ```
 This is the version that uses UET, which utilizes the keywords/keyphrases.
 
+Our code does not use the command line. Instead, it changes the experiment using control parameters and hyperparameters.
+
 Control Parameters:
 - is_debug = Use this for debugging (checking the dimensions at a certain point).
 - is_train = True if you want to train and test an experiment; False if you want to test an experiment (you need to have a model first).
 - memotion_num_list = Tells which Memotion dataset you want to run. You can simply add/remove the dataset(s) here.
 - tasks_list = The Memotion tasks. Our prior code (single task) utilizes this to select a specific task for a particular experiment.
 - version = Also called "experiment number". Change this every time you make an experiment.
+
+Refer to the paper for the hyperparameters.
 
 # Customization
 Our research is composed of different modules that other algorithms can easily substitute. We encourage you to try out other models and see their performance.
