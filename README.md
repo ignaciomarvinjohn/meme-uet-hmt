@@ -3,15 +3,14 @@ This is the main repository for the paper "Meme Analysis using LLM-based Context
 
 You can access the paper [here](https://ieeexplore.ieee.org/document/10589379).
 
-Source code will be provided soon!
-
 # Updates
-- 2024/07/09: Paper is published in IEEE Access. Started the documentation in the GitHub.
+- 2024/07/09: Paper is published in IEEE Access.
+- 2024/07/15: Base code is uploaded to GitHub.
 
 # Setup
 
 ## Dependencies
-Our work is developed in Windows 10 operating system. We used a conda environment with the following dependencies:
+Our work is developed using the Windows 10 operating system. We used a conda environment with the following dependencies:
 - Python 3.7
 - Cuda Toolkit 11.7
 - PyTorch 1.13
@@ -36,6 +35,8 @@ to generate contextual information per meme image. Note that the *meme_text* in 
 (We will provide a sample code, but keep in mind you can easily make one just by following the instructions.)
 
 # Training
+We have provided our own contextual information dataset, which is located in the *input* folder. ATTENTION: This dataset was built at our own expense. We originally intended to make it private, but we decided to make it public for the sake of research. Take note that this dataset is under the [**CC BY-NC-ND 4.0**](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
+
 You can run the following code to perform classification using Document HMT, as described in our paper.
 ```
 python train_document.py
@@ -51,8 +52,10 @@ This is the version that uses UET, which utilizes the keywords/keyphrases.
 # Customization
 
 
-# Contact
-For inquiries, kindly send an email to mjci@sju.ac.kr
+# Notes
+If you have concerns or suggestions regarding our GitHub, don't hesitate to message us. We want to improve this as much as possible, so your comments are welcome!
+
+For inquiries, kindly send an email to mjci@sju.ac.kr.
 
 # Other Links
 - **UET4Rec**: The paper has been accepted and will be published soon!
