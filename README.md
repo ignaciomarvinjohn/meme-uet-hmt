@@ -24,7 +24,7 @@ Follow the instructions on the [BLIP-2 GitHub page](https://github.com/salesforc
 (We will provide a sample code, but keep in mind you can easily make one just by following the instructions.)
 
 ### Generate Contextual Information
-Follow the instructions on the [OpenAI API website](https://platform.openai.com/docs/quickstart). You must have an account and API key (and budget) to make an API request.
+Follow the instructions on the [OpenAI API website](https://platform.openai.com/docs/quickstart). You must have an account and API key (and budget) to make an API request. In your code, use GPT-4 as the model.
 
 Create a prompt
 ```
@@ -50,7 +50,15 @@ python train_keywords.py
 This is the version that uses UET, which utilizes the keywords/keyphrases.
 
 # Customization
+Our research is composed of different modules that other algorithms can easily substitute. We encourage you to try out other models and see their performance.
 
+You can:
+1. Change BLIP-2 using a different image captioning model.
+2. Use a differnt LLM other than GPT-4. (I suggest using LLM, which does not require financial cost.)
+3. Craft your own prompt.
+4. Create your own dataset using another method.
+
+Our code is also written in a comprehensive way so that you can edit them yourself.
 
 # Notes
 If you have concerns or suggestions regarding our GitHub, don't hesitate to message us. We want to improve this as much as possible, so your comments are welcome!
