@@ -78,6 +78,7 @@ For inquiries, kindly send an email to mjci@sju.ac.kr.
 
 # Other Links
 - **UET4Rec**: You can find the paper [here](https://www.sciencedirect.com/science/article/pii/S0957417424016488).
+- **VisUET**: Github link [here](https://github.com/ignaciomarvinjohn/visuet).
 
 # Citation
 ```
