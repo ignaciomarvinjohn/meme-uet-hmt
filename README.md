@@ -21,7 +21,7 @@ The first stage of our work involves creating a contextual information dataset u
 ### Generate Meme Captions
 Follow the instructions on the [BLIP-2 GitHub page](https://github.com/salesforce/LAVIS/tree/main/projects/blip2) to set up the model for image captioning. Then, use the source code provided on the BLIP-2 website to caption the images in Memotion 1-3.
 
-(We will provide a sample code, but keep in mind you can easily make one just by following the instructions.)
+(We will provide a sample code, but you can easily make one by following the instructions.)
 
 ### Generate Contextual Information
 Follow the instructions on the [OpenAI API website](https://platform.openai.com/docs/quickstart). You must have an account and API key (and budget) to make an API request. In your code, use GPT-4 as the model.
@@ -32,7 +32,7 @@ Create a prompt
 ```
 to generate contextual information per meme image. Note that the *meme_text* in this prompt is the text in the meme image, and *meme_caption* is the generated caption using the BLIP-2 model.
 
-(We will provide a sample code, but keep in mind you can easily make one just by following the instructions.)
+(We will provide a sample code, but you can easily make one by following the instructions.)
 
 # Training
 We have provided our own contextual information dataset, which is located in the *input* folder. ATTENTION: This dataset was built at our own expense. We originally intended to make it private, but we decided to make it public for the sake of research. Take note that this dataset is under the [**CC BY-NC-ND 4.0**](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
@@ -49,7 +49,7 @@ python train_keywords.py
 ```
 This is the version that uses UET, which utilizes the keywords/keyphrases.
 
-Our code does not use the command line. Instead, it changes the experiment using control parameters and hyperparameters.
+Our code does not use the command line. Instead, the experiment can be changed using control parameters and hyperparameters.
 
 Control Parameters:
 - is_debug = Use this for debugging (checking the dimensions at a certain point).
@@ -65,7 +65,7 @@ Our research is composed of different modules that other algorithms can easily s
 
 You can:
 1. Change BLIP-2 using a different image captioning model.
-2. Use a differnt LLM other than GPT-4. (I suggest using an open-source LLM, which does not require financial cost.)
+2. Use a different LLM other than GPT-4. (I suggest using an open-source LLM, which does not require financial cost.)
 3. Craft your own prompt.
 4. Create your own dataset using another method.
 
