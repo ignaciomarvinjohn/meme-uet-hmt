@@ -79,6 +79,7 @@ For inquiries, kindly send an email to mjci@sju.ac.kr.
 # Other Links
 - **UET4Rec**: U-net encapsulated transformer for sequential recommender | [paper](https://www.sciencedirect.com/science/article/pii/S0957417424016488)
 - **VisUET** | [Github](https://github.com/ignaciomarvinjohn/visuet)
+- **UET for NLP** | [Github](https://github.com/ignaciomarvinjohn/uet-nlp)
 
 # Citation
 ```
