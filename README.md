@@ -6,6 +6,7 @@ You can access the paper [here](https://ieeexplore.ieee.org/document/10589379).
 # Updates
 - 2024/07/09: Paper is published in IEEE Access.
 - 2024/07/15: Base code is uploaded to GitHub.
+- 2024/12/03: Added example codes for generating captions and meme context
 
 # Setup
 
