@@ -22,7 +22,7 @@ The first stage of our work involves creating a contextual information dataset u
 ### Generate Meme Captions
 Follow the instructions on the [BLIP-2 GitHub page](https://github.com/salesforce/LAVIS/tree/main/projects/blip2) to set up the model for image captioning. Then, use the source code provided on the BLIP-2 website to caption the images in Memotion 1-3.
 
-(We will provide a sample code, but you can easily make one by following the instructions.)
+We provided a sample code in ./preprocess/blip_captions.py for reference.
 
 ### Generate Contextual Information
 Follow the instructions on the [OpenAI API website](https://platform.openai.com/docs/quickstart). You must have an account and API key (and budget) to make an API request. In your code, use GPT-4 as the model.
@@ -33,7 +33,7 @@ Create a prompt
 ```
 to generate contextual information per meme image. Note that the *meme_text* in this prompt is the text in the meme image, and *meme_caption* is the generated caption using the BLIP-2 model.
 
-(We will provide a sample code, but you can easily make one by following the instructions.)
+We provided a sample code in ./preprocess/gpt_request.py for reference.
 
 # Training
 We have provided our own contextual information dataset, which is located in the *input* folder. ATTENTION: This dataset was built at our own expense. We originally intended to make it private, but we decided to make it public for the sake of research. Take note that this dataset is under the [**CC BY-NC-ND 4.0**](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
