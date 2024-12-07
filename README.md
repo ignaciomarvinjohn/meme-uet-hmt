@@ -3,6 +3,12 @@ This is the main repository for the paper "Meme Analysis using LLM-based Context
 
 You can access the paper [here](https://ieeexplore.ieee.org/document/10589379).
 
+# Abstract
+
+<div align="justify">
+&ensp;&ensp;&ensp;&ensp;&ensp;A meme is social media content with which the creator tries to convey a certain idea in public via the internet. Each meme consists of typically an image and supporting text. Its message can be humorous and inspiring, but hilarious and offensive often targeting a specific audience. To address the potential harm such memes can cause, Artificial Intelligence researchers have proposed solutions to classify a meme automatically according to the sentiment, emotion, and intensity felt by the users. Recent models for meme analysis often adopt the Transformer architecture, which is known to perform well but computationally expensive. The present study aims to introduce a novel method by providing (1) deep contextual information and (2) reducing resource utilization while keeping its efficiency. For the former, GPT-4 has been utilized to provide meaningful insights regarding the context behind the meme. For the latter, we extract Keyphrases and forward them to a U-net Encapsulated Transformer, called UET, to process the information. Extensive evaluation with ablation study using three standard meme datasets, i.e. Memotions, suggests that it outperforms state-of-the-art models on sentiment analysis, while it shows comparable performance on the emotion and intensity task. As the proposed model is more lightweight than a standard one and yet shows high performance, it provides new insights into meme analysis and could be useful for other Natural Language Processing tasks.
+</div>
+
 # Updates
 - 2024/07/09: Paper is published in IEEE Access.
 - 2024/07/15: Base code is uploaded to GitHub.
