@@ -85,7 +85,7 @@ For inquiries, kindly send an email to mjci@sju.ac.kr.
 
 # Other Links
 - **UET4Rec**: U-net encapsulated transformer for sequential recommender | [paper](https://www.sciencedirect.com/science/article/pii/S0957417424016488) | [Github](https://github.com/ignaciomarvinjohn/uet4rec)
-- **U-Net Encapsulated Transformer for Reducing Dimensionality in Training Large Language Models** | [Github](https://github.com/ignaciomarvinjohn/uetlm)
+- **U-Net Encapsulated Transformer for Reducing Dimensionality in Training Large Language Models** | [paper](https://dl.acm.org/doi/10.1145/3735653) | [Github](https://github.com/ignaciomarvinjohn/uetlm)
 - **VisUET (tentative)** | [Github](https://github.com/ignaciomarvinjohn/visuet)
 - **UETspeech (tentative)** | [Github](https://github.com/ignaciomarvinjohn/uetspeech)
 
